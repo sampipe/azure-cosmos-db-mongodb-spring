@@ -1,4 +1,4 @@
-package azure.cosmosdb.for.mongodb.api.spring;
+package azure.cosmosdb.mongodb.spring;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +13,7 @@ import com.mongodb.Mongo;
 
 @Configuration
 @EnableMongoRepositories(
-		basePackages = "azure.cosmosdb.for.mongodb.api.spring",
+		basePackages = "azure.cosmosdb.mongodb.spring",
 		mongoTemplateRef = "readPrimaryTemplate"
 		)
 @Import(MongoConfiguration.class)

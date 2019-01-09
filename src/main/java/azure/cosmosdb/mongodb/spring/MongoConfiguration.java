@@ -1,4 +1,4 @@
-package azure.cosmosdb.for.mongodb.api.spring;
+package azure.cosmosdb.mongodb.spring;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
